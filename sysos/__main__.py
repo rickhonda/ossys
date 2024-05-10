@@ -1,12 +1,16 @@
 import os
 import sys
 import os.path
+from zxcv import * 
 
 def main():
     arg = sys.argv
-    print(arg[0], arg[1])
     path = './' + arg[1]
-    print(os.path.isfile(path))
+    result = os.path.isfile(path)
+    if result == True:
+        sys.stderr.write("The file \"" + arg[1] + "\" already exists!\n")
 
+
+        
 if __name__ == "__main__": 
 	main()

@@ -1,1 +1,4 @@
-print("Thanks for importing sysos")
+print("Thanks for importing zxcv")
+
+class WriteIfNameEqualsMain: 
+    pass
